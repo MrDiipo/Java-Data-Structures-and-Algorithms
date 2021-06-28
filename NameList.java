@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class NameList {
@@ -23,5 +24,10 @@ public class NameList {
         // Print list details
         System.out.printf("After clearing all elements: Size = %d, Elements = %s%n", names.size(), names);
 
+
+        // Iterate through all elements
+        names.add("Yusuf");
+
+        names.iterator().forEachRemaining(System.out::println);//Prints: Yusuf
     }
 }
