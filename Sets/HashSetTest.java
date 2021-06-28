@@ -3,7 +3,7 @@ package Sets;
 import java.util.HashSet;
 import java.util.Set;
 
-public class SetTest {
+public class HashSetTest {
     public static void main(String... args){
         // Create a set
         Set<String> s1 = new HashSet<>();
@@ -22,7 +22,7 @@ public class SetTest {
 
         // Print the sets
         System.out.println("s1: " + s1);
-        System.out.println("s1.size() " + s1.size());
+        System.out.println("s1.size()  " + s1.size());
 
         System.out.println("s2: " + s2);
         System.out.println("s2.size() " + s2.size());
