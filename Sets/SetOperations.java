@@ -30,7 +30,7 @@ public class SetOperations {
         set1.addAll(s2);
         System.out.println("s1 union s2 :" + set1);
     }
-    public static void performIntersect(Set<String> s1, Set<String> s2){
+    public static void performIntersect( Set<String> s1, Set<String> s2){
         Set<String> set1 = new HashSet<>(s1);
         set1.retainAll(s2);
         System.out.println("s1 intersect s2: " + set1);
