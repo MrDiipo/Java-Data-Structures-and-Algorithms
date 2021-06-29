@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51b869a8-3f3c-4714-b7cc-777afc621a06" name="Default Changelist" comment="Queues">
-      <change afterPath="$PROJECT_DIR$/Queue/ComparablePerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Queue/PriorityQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Java-Data-Structures-and-Algorithms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Data-Structures-and-Algorithms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue/ComparablePerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/Queue/ComparablePerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Data-Structures-and-Algorithms/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/out/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Data-Structures-and-Algorithms/.idea/Java-Data-Structures-and-Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/.idea/Java-Data-Structures-and-Algorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Data-Structures-and-Algorithms/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Data-Structures-and-Algorithms/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Data-Structures-and-Algorithms/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Data-Structures-and-Algorithms/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/out/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Data-Structures-and-Algorithms/Lists/ListIteratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Lists/ListIteratorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Data-Structures-and-Algorithms/NameList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/NameList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Data-Structures-and-Algorithms/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Data-Structures-and-Algorithms/Sets/HashSetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Sets/HashSetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Data-Structures-and-Algorithms/Sets/LinkedHashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Sets/LinkedHashSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Data-Structures-and-Algorithms/Sets/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Sets/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Data-Structures-and-Algorithms/Sets/SetOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Sets/SetOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Data-Structures-and-Algorithms/Sets/SortedComparatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/Sets/SortedComparatorTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,27 +55,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.PriorityQueueTest">
-    <configuration name="ListIteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.ListIteratorTest" />
-      <module name="Java-Data-Structures-and-Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PriorityQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="15" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Queue.PriorityQueueTest" />
+      <module name="Java-Data-Structures-and-Algorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Queue.*" />
@@ -81,46 +89,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sets.SetOperations" />
-      <module name="Java-Data-Structures-and-Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortedComparatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sets.SortedComparatorTest" />
-      <module name="Java-Data-Structures-and-Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.ListIteratorTest" />
-      <item itemvalue="Application.PriorityQueueTest" />
-      <item itemvalue="Application.QueueTest" />
-      <item itemvalue="Application.SetOperations" />
-      <item itemvalue="Application.SortedComparatorTest" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.PriorityQueueTest" />
         <item itemvalue="Application.QueueTest" />
-        <item itemvalue="Application.ListIteratorTest" />
-        <item itemvalue="Application.SortedComparatorTest" />
-        <item itemvalue="Application.SetOperations" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624999745997</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Queues">
+      <created>1625003024333</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1625003024333</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +218,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="BEK_SORT_TYPE" value="1" />
+            </State>
           </value>
         </entry>
       </map>

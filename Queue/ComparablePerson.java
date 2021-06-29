@@ -1,6 +1,7 @@
 package Queue;
 
 import Sets.Person;
+import java.util.Comparator;
 
 public class ComparablePerson extends Person implements Comparable{
     public ComparablePerson(int id, String name){
