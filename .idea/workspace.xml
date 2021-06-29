@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51b869a8-3f3c-4714-b7cc-777afc621a06" name="Default Changelist" comment=".idea folder deletion">
-      <change afterPath="$PROJECT_DIR$/Queue/QueueTest.java" afterDir="false" />
+    <list default="true" id="51b869a8-3f3c-4714-b7cc-777afc621a06" name="Default Changelist" comment="Queues">
+      <change afterPath="$PROJECT_DIR$/Queue/ComparablePerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue/PriorityQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +37,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.QueueTest">
-    <configuration name="LinkedHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sets.LinkedHashSet" />
+  <component name="RunManager" selected="Application.PriorityQueueTest">
+    <configuration name="ListIteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.ListIteratorTest" />
       <module name="Java-Data-Structures-and-Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sets.*" />
+          <option name="PATTERN" value="Lists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -50,12 +54,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListIteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.ListIteratorTest" />
-      <module name="Java-Data-Structures-and-Algorithms" />
+    <configuration name="PriorityQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="15" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Queue.PriorityQueueTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.*" />
+          <option name="PATTERN" value="Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,13 +107,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ListIteratorTest" />
+      <item itemvalue="Application.PriorityQueueTest" />
+      <item itemvalue="Application.QueueTest" />
+      <item itemvalue="Application.SetOperations" />
+      <item itemvalue="Application.SortedComparatorTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PriorityQueueTest" />
         <item itemvalue="Application.QueueTest" />
         <item itemvalue="Application.ListIteratorTest" />
         <item itemvalue="Application.SortedComparatorTest" />
         <item itemvalue="Application.SetOperations" />
-        <item itemvalue="Application.LinkedHashSet" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624997846544</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Queues">
+      <created>1624999745997</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1624999745997</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +256,11 @@
     <MESSAGE value="&#10;List tutorial" />
     <MESSAGE value="gitignore" />
     <MESSAGE value=".idea folder deletion" />
-    <option name="LAST_COMMIT_MESSAGE" value=".idea folder deletion" />
+    <MESSAGE value="Queues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Queues" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
