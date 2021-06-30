@@ -6,14 +6,15 @@ import java.util.Set;
 public class HashSetTest {
     public static void main(String... args){
         // Create a set
-        Set<String> s1 = new HashSet<>();
+        Set s1 = new HashSet();
         // Add few elements
         s1.add("John");
         s1.add("Donna");
         s1.add("Ken");
         s1.add("Ken");
+        s1.add(43);
         // create another set by copying s1
-        Set<String> s2 = new HashSet<>(s1);
+        Set s2 = new HashSet(s1);
         // Add a few more elements
         s2.add("Ellen");
         s2.add("Sara");
