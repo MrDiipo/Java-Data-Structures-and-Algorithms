@@ -1,0 +1,6 @@
+Algorithms.Recursion is a way of solving aa problem by having a function calling itself.
+
+Algorithms.Recursion properties
+1) Performing the same operation multiple times with different input.
+2) In every step we try smaller inputs to make the problem smaller.
+3) Base condition is needed to stop the ecursion, otherwise infinite loop will occur.

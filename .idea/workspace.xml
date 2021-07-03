@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51b869a8-3f3c-4714-b7cc-777afc621a06" name="Default Changelist" comment="First in first out queue (deque pronounced &quot;deck&quot;)">
+      <change afterPath="$PROJECT_DIR$/Algorithms/Recursion/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/Recursion/Fibonaccii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/Recursion/Info.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/HashSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/HashSetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +45,39 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.HashSetTest">
+  <component name="RunManager" selected="Application.Fibonaccii">
     <configuration name="DequeAsQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Queue.DequeAsQueue" />
       <module name="Java-Data-Structures-and-Algorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Recursion.Factorial" />
+      <module name="Java-Data-Structures-and-Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fibonaccii" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Recursion.Fibonaccii" />
+      <module name="Java-Data-Structures-and-Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,39 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queue.PriorityQueueTest" />
-      <module name="Java-Data-Structures-and-Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queue.QueueTest" />
-      <module name="Java-Data-Structures-and-Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fibonaccii" />
+        <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.HashSetTest" />
         <item itemvalue="Application.MapTest" />
         <item itemvalue="Application.DequeAsQueue" />
-        <item itemvalue="Application.PriorityQueueTest" />
-        <item itemvalue="Application.QueueTest" />
       </list>
     </recent_temporary>
   </component>
