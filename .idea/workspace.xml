@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51b869a8-3f3c-4714-b7cc-777afc621a06" name="Default Changelist" comment="First in first out queue (deque pronounced &quot;deck&quot;)">
-      <change afterPath="$PROJECT_DIR$/Algorithms/Recursion/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/Recursion/Fibonaccii.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/Recursion/Info.txt" afterDir="false" />
+    <list default="true" id="51b869a8-3f3c-4714-b7cc-777afc621a06" name="Default Changelist" comment="Recursion Algorithm">
+      <change afterPath="$PROJECT_DIR$/Algorithms/Recursion/DecimalToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/Recursion/GreatestCommonDivisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/Recursion/PowerOfNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/Recursion/SumOfDigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/Recursion/Info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Recursion/Info.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,22 +47,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Fibonaccii">
-    <configuration name="DequeAsQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queue.DequeAsQueue" />
-      <module name="Java-Data-Structures-and-Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Recursion.Factorial" />
+  <component name="RunManager" selected="Application.DecimalToBinary">
+    <configuration name="DecimalToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Recursion.DecimalToBinary" />
       <module name="Java-Data-Structures-and-Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -85,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sets.HashSetTest" />
+    <configuration name="GreatestCommonDivisor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Recursion.GreatestCommonDivisor" />
       <module name="Java-Data-Structures-and-Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sets.*" />
+          <option name="PATTERN" value="Algorithms.Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +87,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Maps.MapTest" />
+    <configuration name="PowerOfNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Recursion.PowerOfNumbers" />
       <module name="Java-Data-Structures-and-Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Maps.*" />
+          <option name="PATTERN" value="Algorithms.Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Recursion.SumOfDigits" />
+      <module name="Java-Data-Structures-and-Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecimalToBinary" />
+        <item itemvalue="Application.GreatestCommonDivisor" />
+        <item itemvalue="Application.PowerOfNumbers" />
+        <item itemvalue="Application.SumOfDigits" />
         <item itemvalue="Application.Fibonaccii" />
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.HashSetTest" />
-        <item itemvalue="Application.MapTest" />
-        <item itemvalue="Application.DequeAsQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625013057057</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Recursion Algorithm">
+      <created>1625279791959</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1625279791959</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,7 +288,8 @@
     <MESSAGE value="Queues" />
     <MESSAGE value="Application debug" />
     <MESSAGE value="First in first out queue (deque pronounced &quot;deck&quot;)" />
-    <option name="LAST_COMMIT_MESSAGE" value="First in first out queue (deque pronounced &quot;deck&quot;)" />
+    <MESSAGE value="Recursion Algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recursion Algorithm" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
