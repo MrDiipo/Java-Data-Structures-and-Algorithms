@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51b869a8-3f3c-4714-b7cc-777afc621a06" name="Default Changelist" comment="Recursion Algorithm">
-      <change afterPath="$PROJECT_DIR$/Arrays/Example1.java" afterDir="false" />
+    <list default="true" id="51b869a8-3f3c-4714-b7cc-777afc621a06" name="Default Changelist" comment="Arrays.">
+      <change afterPath="$PROJECT_DIR$/Arrays/SingDimArr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.Example1">
+  <component name="RunManager" selected="Application.main">
     <configuration name="DecimalToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithms.Recursion.DecimalToBinary" />
       <module name="Java-Data-Structures-and-Algorithms" />
@@ -96,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Recursion.SumOfDigits" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.main" />
       <module name="Java-Data-Structures-and-Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithms.Recursion.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.Example1" />
         <item itemvalue="Application.DecimalToBinary" />
         <item itemvalue="Application.GreatestCommonDivisor" />
         <item itemvalue="Application.PowerOfNumbers" />
-        <item itemvalue="Application.SumOfDigits" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625279791959</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Arrays.">
+      <created>1626388882126</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1626388882126</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,7 +292,8 @@
     <MESSAGE value="Application debug" />
     <MESSAGE value="First in first out queue (deque pronounced &quot;deck&quot;)" />
     <MESSAGE value="Recursion Algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursion Algorithm" />
+    <MESSAGE value="Arrays." />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrays." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
