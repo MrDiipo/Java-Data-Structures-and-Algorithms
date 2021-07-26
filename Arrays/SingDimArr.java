@@ -21,4 +21,14 @@ public class SingDimArr {
               System.out.println("Invalid index to access array!");
           }
     }
+
+    public void traverseArray(){
+      try {
+          for (int i = 0; i<arr.length; i++){
+              System.out.print(arr[i] + ", ");
+          }
+      }catch (ArrayIndexOutOfBoundsException e){
+          System.out.println("Array traversal");
+      }
+    }
 }

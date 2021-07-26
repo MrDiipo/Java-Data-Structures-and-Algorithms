@@ -8,6 +8,8 @@ public class main {
         sda.insert(6, 56);
         sda.insert(12,120);
 
-        System.out.println(sda.toString());
+        System.out.println("Array traversal...");
+
+        sda.traverseArray();
     }
 }
