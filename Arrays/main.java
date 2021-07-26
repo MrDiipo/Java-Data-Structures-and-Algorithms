@@ -11,5 +11,7 @@ public class main {
         System.out.println("Array traversal...");
 
         sda.traverseArray();
+        System.out.println("'\nArray Search...");
+        sda.searchArray(10);
     }
 }

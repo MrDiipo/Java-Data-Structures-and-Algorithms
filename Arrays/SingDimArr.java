@@ -21,7 +21,7 @@ public class SingDimArr {
               System.out.println("Invalid index to access array!");
           }
     }
-
+    // We traverse through the array.
     public void traverseArray(){
       try {
           for (int i = 0; i<arr.length; i++){
@@ -30,5 +30,15 @@ public class SingDimArr {
       }catch (ArrayIndexOutOfBoundsException e){
           System.out.println("Array traversal");
       }
+    }
+    // Search for an element in the array
+    public void searchArray(int valueToSearch){
+        for (int i=0; i<arr.length; i++ ){
+            if (arr[i] == valueToSearch){
+                System.out.println("Value " + valueToSearch + " found at index " + i);
+               return;
+            }
+        }
+        System.out.println("Value " + valueToSearch + " not found!");
     }
 }
