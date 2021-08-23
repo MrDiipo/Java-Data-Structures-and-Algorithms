@@ -61,4 +61,21 @@ public class SinglyLinkedList {
            System.out.println("\n");
         }
     }
+
+    // Searching through a single linked list
+    public void sllSearching(int value){
+        if (head == null){
+            System.out.println("Single linked list not found");
+        }
+        Node tempNode = head;
+        for (int i=0; i<size; i++){
+            if (tempNode.value == value){
+                System.out.println("The node of value " + value + " is at " + i);
+                break;
+            }
+            tempNode = tempNode.next;
+            }
+        System.out.println("Node not found!");
+        }
+
 }
