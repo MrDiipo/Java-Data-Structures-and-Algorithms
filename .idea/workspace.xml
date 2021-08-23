@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51b869a8-3f3c-4714-b7cc-777afc621a06" name="Default Changelist" comment="Creation of single linked List.">
+    <list default="true" id="51b869a8-3f3c-4714-b7cc-777afc621a06" name="Default Changelist" comment="Insertion algorithm in linked List.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lists/LinkedList/SingleLinkedList/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lists/LinkedList/SingleLinkedList/MainClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lists/LinkedList/SingleLinkedList/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lists/LinkedList/SingleLinkedList/SinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -289,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629719225830</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Insertion algorithm in linked List.">
+      <created>1629721108044</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1629721108044</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,7 +333,8 @@
     <MESSAGE value="Arrays traversal." />
     <MESSAGE value="Arrays search." />
     <MESSAGE value="Creation of single linked List." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creation of single linked List." />
+    <MESSAGE value="Insertion algorithm in linked List." />
+    <option name="LAST_COMMIT_MESSAGE" value="Insertion algorithm in linked List." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

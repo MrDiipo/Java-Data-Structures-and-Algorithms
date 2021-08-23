@@ -44,4 +44,21 @@ public class SinglyLinkedList {
         }
         size++;
     }
+
+    // Single linked list traversal
+    public void traverseSingleLInkedList() {
+        if (head == null) {
+            System.out.println("List does not exist.");
+        } else {
+            Node traverseNode = head;
+           for (int i = 0; i < size; i++){
+               System.out.print(traverseNode.value);
+               if (i != size -1){
+                   System.out.print(" -> ");
+               }
+               traverseNode = traverseNode.next;
+            }
+           System.out.println("\n");
+        }
+    }
 }
