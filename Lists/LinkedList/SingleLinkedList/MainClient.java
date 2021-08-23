@@ -10,7 +10,7 @@ public class MainClient  {
         sLL.insertInLinkedList(7,3);
         sLL.insertInLinkedList(5,11 );
         sLL.insertInLinkedList(56, 2);
-        sLL.sllSearching(56);
+        sLL.sllSearching(9);
 
     }
 }
