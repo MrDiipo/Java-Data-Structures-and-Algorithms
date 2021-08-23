@@ -5,5 +5,8 @@ public class MainClient  {
         SinglyLinkedList sLL = new SinglyLinkedList();
         sLL.createSingleLinkedList(5);
         System.out.println(sLL.size);
+
+        sLL.insertInLinkedList(6,0);
+
     }
 }
