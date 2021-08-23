@@ -113,7 +113,13 @@ public class SinglyLinkedList {
                 tempNode.next = tempNode.next.next;
                 size--;
             }
-
         }
+
+        // Delete an entire single linked list
+    public void deleteSLL(){
+        head = null;
+        tail = null;
+        System.out.println("The list has been deleted successfully!");
+    }
 
 }

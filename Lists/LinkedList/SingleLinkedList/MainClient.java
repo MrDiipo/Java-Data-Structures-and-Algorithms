@@ -12,5 +12,8 @@ public class MainClient  {
         sLL.insertInLinkedList(56, 2);
         sLL.sllSearching(10);
 
+        sLL.deleteSLL();
+        sLL.traverseSingleLInkedList();
+
     }
 }
