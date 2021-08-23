@@ -70,13 +70,50 @@ public class SinglyLinkedList {
         Node tempNode = head;
         for (int i=0; i<size; i++){
             if (tempNode.value == value){
-                System.out.println("The node of value " + value + " is at " + i);
+                System.out.println("The node of value " + value + " is at position " + i);
                 return tempNode;
             }
             tempNode = tempNode.next;
             }
         System.out.println("Node not found!");
         return null;
+        }
+
+        // Deletion of a node in a linked list
+        public void deleteNode(int position){
+            if (head == null){
+                System.out.println("Linked list not available.");
+                return;
+            } else if (position == 0){
+                head = head.next;
+                size--;
+                if (size == 0){
+                    tail = null;
+                }
+            } else if (position >= size){
+                tail = null;
+                Node tempNode = head;
+                for (int i = 0; i <= size-1; i++){
+                    tempNode = tempNode.next;
+                    if (tempNode == head){
+                        tail = head = null;
+                        size--;
+                        return;
+                    }
+                    tempNode.next = null;
+                    tail = tempNode;
+                    size--;
+            }
+
+            } else {
+                Node tempNode = head;
+                for (int i = 0; i <= position -1; i++){
+                    tempNode = tempNode.next;
+                    }
+                tempNode.next = tempNode.next.next;
+                size--;
+            }
+
         }
 
 }
