@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51b869a8-3f3c-4714-b7cc-777afc621a06" name="Default Changelist" comment="Arrays traversal.">
+    <list default="true" id="51b869a8-3f3c-4714-b7cc-777afc621a06" name="Default Changelist" comment="Arrays search.">
+      <change afterPath="$PROJECT_DIR$/Lists/LinkedList/SingleLinkedList/MainClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lists/LinkedList/SingleLinkedList/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lists/LinkedList/SingleLinkedList/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/SingDimArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/SingDimArr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="Application.MainClient">
     <configuration name="DecimalToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithms.Recursion.DecimalToBinary" />
       <module name="Java-Data-Structures-and-Algorithms" />
@@ -84,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerOfNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Recursion.PowerOfNumbers" />
+    <configuration name="MainClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.LinkedList.SingleLinkedList.MainClient" />
       <module name="Java-Data-Structures-and-Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithms.Recursion.*" />
+          <option name="PATTERN" value="Lists.LinkedList.SingleLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClient" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.Example1" />
         <item itemvalue="Application.DecimalToBinary" />
         <item itemvalue="Application.GreatestCommonDivisor" />
-        <item itemvalue="Application.PowerOfNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627306046414</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Arrays search.">
+      <created>1627307607278</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1627307607278</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -310,7 +318,8 @@
     <MESSAGE value="Arrays." />
     <MESSAGE value="Arrays methods." />
     <MESSAGE value="Arrays traversal." />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrays traversal." />
+    <MESSAGE value="Arrays search." />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrays search." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
